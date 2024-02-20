@@ -11,7 +11,7 @@ public class HelloController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String hi(){
 		ModelAndView mav = new ModelAndView();
-		mav.addObject("result", 2);
+		mav.addObject("result", 3);
 		mav.setViewName("home");
 		return "home";
 	}
